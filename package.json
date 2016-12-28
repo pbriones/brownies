@@ -1,12 +1,12 @@
 {
   "name": "brownies",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "brownies in openshift",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "yelp-fusion-v3": "0.0.2"
+    "yelp-fusion-v3": "0.x.x"
   },
   "devDependencies": {
     "chai": "^3.5.0",
