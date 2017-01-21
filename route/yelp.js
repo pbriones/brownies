@@ -16,14 +16,18 @@ router.get('/', (req, res) => {
 
 router
   .route('/businesses')
-  .post(function (req, res) {
+  .post((req, res) => {
     yelp.getBusinesses(req.body)
-      .then((data) => {
-        res.send(data);
-      })
-      .catch((e) => {
-        res.status(500).send(e);
-      })
+      .then(data => res.send(data))
+      .catch(e => res.status(500).send(e))
+  })
+
+router
+  .route('/business')
+  .post((req, res) => {
+    yelp.getBusiness(req.body)
+      .then(data => res.send(data))
+      .catch(e => res.status(500).send(e))
   })
 
 module.exports = router;
