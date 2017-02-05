@@ -1,9 +1,10 @@
 {
   "name": "brownies",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "brownies in openshift",
   "main": "app.js",
   "dependencies": {
+    "@google/maps": "^0.3.1",
     "express": "^4.14.0",
     "yelp-fusion-v3": "0.x.x"
   },
