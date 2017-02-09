@@ -1,9 +1,7 @@
 'use strict';
 const Client = require('@google/maps');
-const dotenv = require('dotenv');
 const express = require('express');
 let router = express.Router();
-dotenv.load();
 const client = Client.createClient({
   key: process.env.GOOGLE_DISTANCE_KEY
 });

@@ -1,9 +1,7 @@
 'use strict'
-const dotenv = require('dotenv');
 const express = require('express');
 const Yelp = require('yelp-fusion-v3');
 let router = express.Router();
-dotenv.load();
 const yelp = new Yelp({
   client_id: process.env.YELP_ID,
   client_secret: process.env.YELP_SECRET
