@@ -1,6 +1,6 @@
 {
   "name": "brownies",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "brownies in openshift",
   "main": "app.js",
   "dependencies": {
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node app.js"
+    "start": "node cluster.js"
   },
   "repository": {
     "type": "git",
