@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "node cluster.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
